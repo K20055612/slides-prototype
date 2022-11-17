@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.header {
+    background-color: rgb(37, 62, 107);
+    height: 30px;
+}
+
+.footer {
+    background-color: rgb(37, 62, 107);
+    margin-top: auto;
+    height: 20px;
+}
+
+.main {
+    background-color: rgb(121, 161, 235);
+    flex: 1 0 auto;
+    display: flex;
+    padding: 5px;
+    gap: 3px;
+}
+
+.editor-container {
+    flex: 1;
+    display: flex;
+}
+
+.preview-container {
+    flex: 1;
+    display: flex;
+}
+
+#editor {
+    resize: none;
+    flex: 1 0 auto;
+    background-color:  #121212;
+    border:1px solid #0dddf0;
+    font-size: 1.4rem;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    color:white;
+}
